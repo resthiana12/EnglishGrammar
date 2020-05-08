@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style/merchandise_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>English Grammar Club</title>
+</head>
+<body>
+    <header>
+            <nav id="navbar">
+                  <ul class="navbar">
+                      <li><a href="index.html" class="home">Home</a></li>
+                      <li><a href="index.html">About</a></li>
+                      <li><a href="index.html">Member</a></li>
+                      <li><a href="#" class="active">Merchandise</a></li>
+                      <li><a href="index.html">Join</a></li>
+                      <li> <a href="index.html">Contact</a></li>
+                      <li class="icon">
+                        <a href="javascript:void(0);" onclick="myFunction()" class="active">Menu</a>
+                      </li>
+                  </ul>  
+                  <div class="brand">
+                       <a href="index.html"><b>English Grammar Club</b></a>
+                  </div>      
+            </nav> 
+            <div class="jumbotron">
+                  <h1>Merchandise</h1>
+                  <q>Join us and get what you want</q>      
+            </div>
+    </header>
+    
+    <main>
+       <div  id="content">
+           <div id="alerts"></div>
+           <article class="items">
+              <div class="card">
+                <img src="assets/image/merchandise/caseWhite12.jpg" alt="">
+                <h3 class="productname">White Green Case</h3>
+                <p class="price">$5.00</p>
+                <button class="addtocart">Add To Cart</button>
+              </div>
+              <div class="card">
+                <img src="assets/image/merchandise/mug.jpg" alt="">
+                <h3 class="productname">White Cute Mug</h3>
+                <p class="price">$7.99</p>
+                <button class="addtocart">Add To Cart</button>
+              </div>
+              <div class="card">
+                <img src="assets/image/merchandise/caseWhite22.jpg" alt="">
+                <h3 class="productname">White Black Case</h3>
+                <p class="price">$5.50</p>
+                <button class="addtocart">Add To Cart</button>
+              </div>
+              <div class="card">
+                <img src="assets/image/merchandise/tshirt1.jpeg" alt="">
+                <h3 class="productname">T-shirt</h3>
+                <p class="price">$9.99</p>
+                <button class="addtocart">Add To Cart</button>
+              </div>
+            </article>
+
+            <article class="cart-container">
+                <h2>Cart <span class="fa fa-shopping-cart"></span></h2>
+                <table>
+                  <thead>
+                    <tr>
+                      <th><strong>Product</strong></th>
+                      <th><strong>Price</strong></th>
+                    </tr>
+                  </thead>
+                  <tbody id="carttable">
+                  </tbody>
+                </table>
+                <hr>
+                <table id="carttotals">
+                  <tr>
+                    <td><strong>Items</strong></td>
+                    <td><strong>Total</strong></td>
+                  </tr>
+                  <tr>
+                    <td>x <span id="itemsquantity">0</span></td>
+
+                    <td>$<span id="total">0</span></td>
+                  </tr>
+                </table>
+
+                <div class="cart-buttons">
+                  <button id="emptycart">Empty Cart</button>
+                  <button id="checkout"> <a href="https://api.whatsapp.com/send?phone=+967774486646">Checkout </a></button>
+                </div>
+            </article>
+
+            <article class="order">
+                <h2>How to order ? </h2>
+                <h4> Just place an order on our WhatsApp</h4>
+                <div class="basicInfo">
+                  <h4>Complete Your Basic Info</h4>
+                  <p>Forward your basic details on our WhatsApp number : (+967) 774 486 646 We will confirm your order.</p>
+                  <ul>
+                    <li> Provide us the photo of the product you want to buy</li>
+                    <li>Description</li>
+                    <li>Your full name</li>
+                    <li>Shipping address</li>
+                    <li>Mobile number</li>
+                    <li>Email</li>
+                  </ul>
+                </div>
+                  <div class="payment">
+                    <h4>Payment Method</h4>
+                    <ul>
+                      <li>Online Bank Transfer accepted.</li>
+                    </ul>
+                  </div>
+                  <div class="term">
+                    <h4>Terms & Conditions</h4>
+                    <ul>
+                      <li> The product will be dispatched only after we receive the payment confirmation.</li>
+                      <li>Online payments only accepted (No Cash on Delivery).</li>
+                      <li>For any complaints and queries contact us on (+967) 774 486 646.</li>
+                    </ul>
+                  </div>
+            </article>
+       </div>              
+    </main>
+
+    <footer>
+         <p>Learning English &#169; 2020, English Grammar Club</p>
+    </footer>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/storage.js"></script>
+</body>
+</html>

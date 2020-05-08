@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+@media screen and (max-width: 1000px) {
+       #content,
+       header,
+       .basicInfo, .payment, .term,
+       .card, .items{
+           min-width: 100%;
+           padding: 0;
+           
+       }
+       #home{
+            padding-top: 30px !important;
+            margin-left: 20px !important;
+       }
+        .jumbotron{
+            min-height: 300px !important;
+        }
+        .brand a{
+            font-size: 13px !important;
+        }
+    
+        /* sembunyikan semua menu item. Tampilkan juga list item yang berisi link untuk membuka menu yaitu (li.icon) */
+          ul.navbar li {
+              display: none;
+          }
+          ul.navbar li.icon {
+            float: left;
+            display: block !important;
+          }
+
+    /*    membuat class responsive untuk menampilkan list menu*/
+          ul.navbar.responsive {
+              position: relative;
+          }
+          ul.navbar.responsive li.icon {
+            position: absolute;
+            top: 0;
+          }      
+          ul.navbar.responsive .home{
+            padding-top: 90px;
+          }
+          ul.navbar.responsive li {
+            float: none;
+            display: inline;
+          }
+          ul.navbar.responsive li a {
+            display: block;
+            text-align: left;
+          }
+          
+          .items{
+            display: block !important;
+            margin-top: 20px !important;
+          }
+
+          .card{
+            border: 2px solid seagreen;
+            padding: 8px;
+            margin-top: 15px !important;
+          }
+
+          .basicInfo, .payment, .term{
+           margin-left: auto !important;
+           margin-right: auto !important;
+           margin-top: 15px !important;
+          }
+
+        footer{
+            margin-top: 10px !important;
+            background-color: white !important;
+            font-size: 0.8em;
+        }
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+main{
+    overflow: auto;
+}
+
+#home{
+    margin: 0;
+    padding-top: 100px;
+    margin-left: 80px;
+    line-height: 1.7em;
+}
+
+nav{
+    overflow: hidden;
+    top: 0px;
+    position: sticky;
+    padding: 0;
+    background-color: white;
+}
+
+nav a{
+    color: black;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav li {
+       float: left;
+       display: inline;
+       list-style-type: none;
+       padding-bottom: 18px;
+}
+
+nav a:hover{
+    background-color: seagreen;
+    color: black;
+}
+
+nav a.active{
+    background-color: seagreen;
+    color: black;
+}
+
+
+.brand{
+    float: right;   
+    font-style: bold;
+    text-shadow: 4px 4px 4px white;
+    padding-right: 20px;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.navbar li.icon {
+    display: none;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 50px;
+    background-color: rgb(210, 241, 210);
+    text-align: center;
+    color: rgb(61, 56, 56);
+ }
+
+ .items{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+}
+
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 23%;
+    text-align: center;
+    float: left;
+    margin: auto;
+  }
+
+  .card img{
+      height: 300px;
+      width: 100%;
+      object-fit: cover;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+footer {
+    margin-top: 60px;
+    /* padding: 10px; */
+    text-align: center;
+    /* background-color: #faf9f5; */
+}
+
+hr {
+  border:none;
+  background:#E0E4CC;
+  height:1px;
+}
+
+#alerts{
+  text-align: center;
+}
+
+.cart-container {
+  border:1px solid #E0E4CC;
+  border-radius:5px;
+  margin-top:1em;
+  padding:1em;
+}
+.cart-buttons button, input[type="submit"] { 
+    border:1px solid rgb(0, 0, 0); 
+    color:#fff; 
+    background: rgb(28, 32, 28); 
+    padding:0.6em 1em;
+    font-size:1em; 
+    line-height:1; 
+    border-radius: 1.2em;
+    transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+.cart-buttons button:hover, button:focus, button:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
+    background: rgb(151, 160, 155);
+    border-color:rgb(28, 29, 28);
+    color:#000;
+    cursor: pointer;
+}
+table {
+  margin-bottom:1em;
+  border-collapse:collapse;
+}
+table td, table th {
+  text-align:left;
+  padding:0.25em 1em;
+  border-bottom:1px solid #E0E4CC;
+}
+#carttotals {
+  margin-right:0;
+  margin-left:auto;
+}
+.cart-buttons {
+  width:auto;
+  margin-right:0;
+  margin-left:auto;
+  display:flex;
+  justify-content:flex-end;
+  padding:1em 0;
+}
+#emptycart {
+  margin-right:1em;
+}
+table td:nth-last-child(1) {
+  text-align:right;
+}
+.message {
+  border-width: 1px 0px;
+  border-style:solid;
+  border-color:#A7DBD8;
+  color:#679996;
+  padding:0.5em 0;
+  margin:1em 0;
+}
+
+#checkout a{
+  text-decoration: none;
+  color: white
+}
+.order{
+  padding: 20px 20px 60px 20px;
+  background-color: rgb(210, 241, 210);
+  text-align: center;
+  overflow: hidden;
+}
+
+.basicInfo{
+  width: 45%;
+  float: left;
+}
+.basicInfo, .payment, .term{
+  text-align: left;
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+}
+
+.term, .payment{
+  float: right;
+  width: 50%;
+}

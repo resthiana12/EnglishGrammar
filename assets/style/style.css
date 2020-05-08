@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+@media screen and (max-width: 1000px) {
+       #content,
+       aside,
+       header{
+           min-width: 100%;
+           padding: 0;
+           
+       }
+       #home{
+            padding-top: 30px !important;
+            margin-left: 20px !important;
+       }
+        .jumbotron{
+            min-height: 300px !important;
+        }
+        .brand a{
+            font-size: 13px !important;
+        }
+    
+        /* sembunyikan semua menu item. Tampilkan juga list item yang berisi link untuk membuka menu yaitu (li.icon) */
+          ul.navbar li {
+              display: none;
+          }
+          ul.navbar li.icon {
+            float: left;
+            display: block !important;
+          }
+
+    /*    membuat class responsive untuk menampilkan list menu*/
+          ul.navbar.responsive {
+              position: relative;
+          }
+          ul.navbar.responsive li.icon {
+            position: absolute;
+            top: 0;
+          }      
+          ul.navbar.responsive .home{
+            padding-top: 90px;
+            background-color: transparent !important;
+          }
+          ul.navbar.responsive li {
+            float: none;
+            display: inline;
+          }
+          ul.navbar.responsive li a {
+            display: block;
+            text-align: left;
+          }
+        .container{
+            padding: 10px 20px !important;
+        }
+        #about{
+            padding-top: 20px !important;
+        }
+        #about p{
+            padding-top: 5px !important;
+        }
+        .mission{
+            float: left;
+            width: 100% !important;
+        }
+        .vision{
+            width: 100% !important;
+            padding-left: 10px !important;
+        }
+         .visionMission{
+            overflow: auto;
+        }
+        #members{
+            overflow: hidden !important;
+        }
+        .member{
+            width: 300px !important;
+            display: inline!important;
+            line-height: 10px;
+            padding-bottom: 60px;
+        }
+        .sumMember{
+            padding-top: 10px !important;
+        }
+        #join{
+            height: auto!important;
+            padding-left: 0px !important;
+            max-height: 800px !important;
+            overflow: hidden;
+        }
+        .reviewer{
+            margin-left: -128px;
+        }
+
+        .invite{
+            max-width: 100% !important;
+            margin-right: 0px !important;
+            margin-top: 10px !important;
+        }
+        .dua{
+            margin-left: -23px;
+        }
+        aside, #contact{
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        #contact{
+            margin-top: -48px;
+            margin-bottom: -100px;
+            padding-left: 60px;
+            max-width: 100% !important;
+        }
+        footer{
+            margin-top: 5px !important;
+            background-color: white !important;
+            font-size: 0.8em;
+        }
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+main{
+    overflow: auto;
+}
+
+.jumbotron{
+    background-image: url('../image/world.jpeg');
+    color: aliceblue;
+    width: 100%;
+    min-height: 400px;
+    object-fit: cover;
+    object-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+}
+
+#home{
+    margin: 0;
+    padding-top: 100px;
+    margin-left: 80px;
+    line-height: 1.7em;
+}
+
+nav{
+    overflow: hidden;
+    top: 0px;
+    position: sticky;
+    padding: 0;
+}
+
+nav a{
+    color: black;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav li {
+       float: left;
+       display: inline;
+       list-style-type: none;
+       padding-bottom: 18px;
+}
+
+nav a:hover{
+    background-color: seagreen;
+    color: black;
+}
+
+nav a.active{
+    background-color: seagreen;
+    color: black;
+}
+
+
+.brand{
+    float: right;   
+    font-style: bold;
+    text-shadow: 4px 4px 4px white;
+    padding-right: 20px;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.navbar li.icon {
+    display: none;
+}
+
+.container{
+    padding-top: 50px;
+}
+#about{
+   background-color: #faf9f5;
+   width: 100%;
+   min-height: 250px;
+   text-align: center;
+   padding-left:320px;
+   padding-right: 320px;
+}
+
+#about hr{
+    width: 70px;
+}
+
+#about h2{
+    margin: 0;
+}
+
+#about p{
+    padding-top: 20px;
+}
+
+.visionMission{
+    min-height: 300px;
+    color: white;
+    background: rgb(19, 69, 69);
+    background: linear-gradient(0deg,
+    rgba(19,69,69,1)0%,
+    rgba(194,207,195,1)100%);
+}
+
+.vision{
+    float: left;
+    width: 50%;
+    padding-left: 40px;
+}
+.mission{
+    float: right;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+#members{
+    padding-left: 40px;
+    padding-right: 20px;
+    min-height: 420px;
+    background-color: #faf9f5;
+}
+
+.sumMember{
+    padding-top: 50px;
+    max-width: 25%;
+    text-align: center;
+    font-size: 1.7em;
+    float: left;
+    padding-left: 20px;
+    line-height: 20px;
+}
+
+.member{
+    float: right;
+    width: 25%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.member img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 0 8px #e6e1e1, 0 0 12px #1c1b1b;
+}
+
+.member q{
+    font-size: 12px;
+}
+
+#join{
+    text-align: center;
+    background: rgb(19, 69, 69);
+    background: linear-gradient(0deg,
+    rgba(19,69,69,1)0%,
+    rgba(194,207,195,1)100%);
+    min-height: 500px;
+    color: ghostwhite;
+    padding-left: 100px;
+}
+
+#join a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+.review{
+    width: 400px;
+    margin-right: -200px;
+    float: left;
+}
+
+.invite{
+    float: right;
+    max-width: 40%;
+    margin-right: 200px;
+    margin-top: 60px;
+}
+.invite button{
+    border-radius: 30px;
+    padding: 10px 40px;
+    width: 300px;
+    font-size: 30px;
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.invite button:hover{
+    background-color: darkslategrey;
+}
+
+.card {
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+       border-radius: 5px;
+       padding: 10px 20px 20px 20px;
+       margin-top: 50px;
+       background-color: #faf9f5;
+}
+
+address{
+    font-style: normal;
+    text-align: left;
+}
+
+#contact{
+    max-width: 50%;
+    float: left;
+    height: 350px;
+    margin-left: 300px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+#contact a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+
+#contact h3{
+    text-align: center;
+    margin-bottom: 0px;
+}
+#contact hr{
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+
+aside{
+       float: right;
+       max-width: 50%;
+       min-height: 500px;
+       margin-right: 25%;
+       margin-left: auto;
+}
+
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 0 8px #e6e1e1, 0 0 12px #1c1b1b;
+}
+
+.profile a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+  
+
+.title {
+    color: grey;
+    font-size: 18px;
+  }
+
+.profile button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(19, 15, 15);
+    background-color: rgb(230, 220, 220);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+ .profile button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+.profile{
+    padding: 10px 30px 0px 30px;
+    text-align: center;
+    max-width: 400px;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 10px;
+    text-align: center;
+    background-color: #faf9f5;
+}
