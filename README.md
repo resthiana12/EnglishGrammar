@@ -5,20 +5,20 @@ Demo :
 
 ![alt text](https://github.com/resthiana12/EnglishGrammarWebsite/blob/master/demo/1.png)
 
-https://drive.google.com/open?id=1sY2NZ6C9gkVECmd0KDiYN3kbf5bdc7SZ
+![alt text](https://github.com/resthiana12/EnglishGrammarWebsite/blob/master/demo/2.png)
 
-https://drive.google.com/open?id=1d1pk0RWECmoGn2PTuBIPJMucgNsCFfvG
+![alt text](https://github.com/resthiana12/EnglishGrammarWebsite/blob/master/demo/3.png)
 
-https://drive.google.com/open?id=1hIMs47Dp2wClh-kfmBpG8g2kozWHTQ0v
+![alt text](https://github.com/resthiana12/EnglishGrammarWebsite/blob/master/demo/4.png)
 
-https://drive.google.com/open?id=1LJ75uGoyW76VWX_vEnY9-E2bjd0b7YLt
+![alt text](https://github.com/resthiana12/EnglishGrammarWebsite/blob/master/demo/5.png)
 
-https://drive.google.com/open?id=1QZa4A0a-aC1VAtX9V-xMpAZbx7I6ZLUR
+![alt text](https://github.com/resthiana12/EnglishGrammarWebsite/blob/master/demo/6.png)
 
-https://drive.google.com/open?id=16uPhwA_2L5l1vCNfaeiyjQze04-JmTxL
+![alt text](https://github.com/resthiana12/EnglishGrammarWebsite/blob/master/demo/7.png)
 
-https://drive.google.com/open?id=14larkqx_gSS5A3C4YdsR8Ls2C44aPpNm
+![alt text](https://github.com/resthiana12/EnglishGrammarWebsite/blob/master/demo/8.png)
 
-https://drive.google.com/open?id=1e59WS4RRMEECCm4z89MCkNL_0SAlhDo9
+![alt text](https://github.com/resthiana12/EnglishGrammarWebsite/blob/master/demo/9.png)
 
-https://drive.google.com/open?id=1Gy1zueK2GO6X6EfdHRpFgHj2ZGlrcbqg
+![alt text](https://github.com/resthiana12/EnglishGrammarWebsite/blob/master/demo/10.png)
