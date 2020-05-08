@@ -3,7 +3,7 @@ This is my website project of English Grammar Club. This website is pure only HT
 
 Demo :
 
-![alt text](https://drive.google.com/open?id=1EZDWmi6FCaQUMv3acy2811Y_HR4j4WOA)
+![alt text](https://drive.google.com/file/d/1Gy1zueK2GO6X6EfdHRpFgHj2ZGlrcbqg/view?usp=sharing)
 
 https://drive.google.com/open?id=1sY2NZ6C9gkVECmd0KDiYN3kbf5bdc7SZ
 
